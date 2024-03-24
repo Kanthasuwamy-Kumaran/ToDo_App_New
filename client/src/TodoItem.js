@@ -1,6 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 //Add API, we ll need it later when we send a delete request
-const API_BASE= 'http://localhost:4001/todo';
+const API_BASE= 'https://todo-app-new.onrender.com/todo';
 
 function TodoItem(props){
  // Pass down props
